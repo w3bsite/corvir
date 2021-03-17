@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "Articles"
+    "name": "Articles",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,52 @@
     },
     "obj": {
       "type": "json"
+    },
+    "txt1": {
+      "type": "string"
+    },
+    "txt2": {
+      "type": "string"
+    },
+    "rtxt1": {
+      "type": "richtext"
+    },
+    "rtxt2": {
+      "type": "richtext"
+    },
+    "inum1": {
+      "type": "integer"
+    },
+    "inum2": {
+      "type": "integer"
+    },
+    "inum3": {
+      "type": "integer"
+    },
+    "inum4": {
+      "type": "integer"
+    },
+    "dt2": {
+      "type": "datetime"
+    },
+    "d1": {
+      "type": "date"
+    },
+    "t1": {
+      "type": "time"
+    },
+    "bool2": {
+      "type": "boolean"
+    },
+    "obj2": {
+      "type": "json"
+    },
+    "bool3": {
+      "type": "boolean"
+    },
+    "UID1": {
+      "type": "uid",
+      "targetField": "txt1"
     }
   }
 }

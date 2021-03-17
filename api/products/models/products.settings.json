@@ -34,6 +34,56 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "txt1": {
+      "type": "string"
+    },
+    "txt2": {
+      "type": "string"
+    },
+    "rtxt1": {
+      "type": "richtext"
+    },
+    "num1": {
+      "type": "integer"
+    },
+    "num2": {
+      "type": "integer"
+    },
+    "num3": {
+      "type": "integer"
+    },
+    "num4": {
+      "type": "integer"
+    },
+    "dt1": {
+      "type": "datetime"
+    },
+    "d1": {
+      "type": "date"
+    },
+    "t1": {
+      "type": "time"
+    },
+    "bool2": {
+      "type": "boolean"
+    },
+    "bool3": {
+      "type": "boolean"
+    },
+    "bool4": {
+      "type": "boolean"
+    },
+    "obj2": {
+      "type": "json"
+    },
+    "UID1": {
+      "type": "uid",
+      "targetField": "txt1"
+    },
+    "UID2": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

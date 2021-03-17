@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "singles",
+  "info": {
+    "name": "single",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "rich": {
+      "type": "richtext"
+    },
+    "json": {
+      "type": "json"
+    },
+    "dynamic": {
+      "type": "dynamiczone",
+      "components": []
+    }
+  }
+}

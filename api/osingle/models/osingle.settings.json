@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "osingles",
+  "info": {
+    "name": "osingle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "longtxt": {
+      "type": "text"
+    },
+    "rich": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "json": {
+      "type": "json"
+    }
+  }
+}

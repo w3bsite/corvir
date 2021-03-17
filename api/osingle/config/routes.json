@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/osingle",
+      "handler": "osingle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/osingle",
+      "handler": "osingle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/osingle",
+      "handler": "osingle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

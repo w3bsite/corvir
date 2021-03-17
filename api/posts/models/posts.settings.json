@@ -28,6 +28,44 @@
     },
     "caption": {
       "type": "string"
+    },
+    "txt1": {
+      "type": "string"
+    },
+    "txt2": {
+      "type": "string"
+    },
+    "dt1": {
+      "type": "date"
+    },
+    "d1": {
+      "type": "date"
+    },
+    "bool2": {
+      "type": "boolean"
+    },
+    "bool3": {
+      "type": "boolean"
+    },
+    "num1": {
+      "type": "integer"
+    },
+    "num2": {
+      "type": "integer"
+    },
+    "num3": {
+      "type": "integer"
+    },
+    "obj1": {
+      "type": "json"
+    },
+    "UID1": {
+      "type": "uid",
+      "targetField": "caption"
+    },
+    "UID2": {
+      "type": "uid",
+      "targetField": "txt2"
     }
   }
 }
