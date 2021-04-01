@@ -84,6 +84,48 @@
     "UID2": {
       "type": "uid",
       "targetField": "title"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    },
+    "text4": {
+      "type": "string"
+    },
+    "text5": {
+      "type": "string"
+    },
+    "text6": {
+      "type": "string"
+    },
+    "numbf1": {
+      "type": "float"
+    },
+    "numbi1": {
+      "type": "integer"
+    },
+    "numbi2": {
+      "type": "integer"
+    },
+    "numbi3": {
+      "type": "integer"
+    },
+    "numbi4": {
+      "type": "integer"
+    },
+    "numbf2": {
+      "type": "float"
+    },
+    "numbf3": {
+      "type": "float"
+    },
+    "numbf4": {
+      "type": "float"
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/17/2021 7:22:47 PM"
+    "x-generation-date": "04/02/2021 1:37:36 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -37,7 +37,7 @@
   ],
   "externalDocs": {
     "description": "Find out more",
-    "url": "https://strapi.io/documentation/developer-docs/latest/"
+    "url": "https://strapi.io/documentation/developer-docs/latest/getting-started/introduction.html"
   },
   "security": [
     {
@@ -2261,6 +2261,134 @@
             }
           }
         }
+      }
+    },
+    "/email/test": {
+      "post": {
+        "deprecated": false,
+        "description": "Send an test email",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Email - Email"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "foo": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/email/settings": {
+      "get": {
+        "deprecated": false,
+        "description": "Get the email settings",
+        "responses": {
+          "200": {
+            "description": "response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Email - Email"
+        ],
+        "parameters": []
       }
     },
     "/upload/": {
@@ -4738,6 +4866,48 @@
           "UID2": {
             "type": "uid"
           },
+          "text1": {
+            "type": "string"
+          },
+          "text2": {
+            "type": "string"
+          },
+          "text3": {
+            "type": "string"
+          },
+          "text4": {
+            "type": "string"
+          },
+          "text5": {
+            "type": "string"
+          },
+          "text6": {
+            "type": "string"
+          },
+          "numbf1": {
+            "type": "number"
+          },
+          "numbi1": {
+            "type": "integer"
+          },
+          "numbi2": {
+            "type": "integer"
+          },
+          "numbi3": {
+            "type": "integer"
+          },
+          "numbi4": {
+            "type": "integer"
+          },
+          "numbf2": {
+            "type": "number"
+          },
+          "numbf3": {
+            "type": "number"
+          },
+          "numbf4": {
+            "type": "number"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -4820,6 +4990,48 @@
           },
           "UID2": {
             "type": "uid"
+          },
+          "text1": {
+            "type": "string"
+          },
+          "text2": {
+            "type": "string"
+          },
+          "text3": {
+            "type": "string"
+          },
+          "text4": {
+            "type": "string"
+          },
+          "text5": {
+            "type": "string"
+          },
+          "text6": {
+            "type": "string"
+          },
+          "numbf1": {
+            "type": "number"
+          },
+          "numbi1": {
+            "type": "integer"
+          },
+          "numbi2": {
+            "type": "integer"
+          },
+          "numbi3": {
+            "type": "integer"
+          },
+          "numbi4": {
+            "type": "integer"
+          },
+          "numbf2": {
+            "type": "number"
+          },
+          "numbf3": {
+            "type": "number"
+          },
+          "numbf4": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",

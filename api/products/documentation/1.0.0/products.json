@@ -597,6 +597,48 @@
           "UID2": {
             "type": "uid"
           },
+          "text1": {
+            "type": "string"
+          },
+          "text2": {
+            "type": "string"
+          },
+          "text3": {
+            "type": "string"
+          },
+          "text4": {
+            "type": "string"
+          },
+          "text5": {
+            "type": "string"
+          },
+          "text6": {
+            "type": "string"
+          },
+          "numbf1": {
+            "type": "number"
+          },
+          "numbi1": {
+            "type": "integer"
+          },
+          "numbi2": {
+            "type": "integer"
+          },
+          "numbi3": {
+            "type": "integer"
+          },
+          "numbi4": {
+            "type": "integer"
+          },
+          "numbf2": {
+            "type": "number"
+          },
+          "numbf3": {
+            "type": "number"
+          },
+          "numbf4": {
+            "type": "number"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -679,6 +721,48 @@
           },
           "UID2": {
             "type": "uid"
+          },
+          "text1": {
+            "type": "string"
+          },
+          "text2": {
+            "type": "string"
+          },
+          "text3": {
+            "type": "string"
+          },
+          "text4": {
+            "type": "string"
+          },
+          "text5": {
+            "type": "string"
+          },
+          "text6": {
+            "type": "string"
+          },
+          "numbf1": {
+            "type": "number"
+          },
+          "numbi1": {
+            "type": "integer"
+          },
+          "numbi2": {
+            "type": "integer"
+          },
+          "numbi3": {
+            "type": "integer"
+          },
+          "numbi4": {
+            "type": "integer"
+          },
+          "numbf2": {
+            "type": "number"
+          },
+          "numbf3": {
+            "type": "number"
+          },
+          "numbf4": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",
